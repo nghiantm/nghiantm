@@ -65,3 +65,5 @@
         <img alt="CodeChef" src="https://img.shields.io/badge/Codechef-%23B92B27.svg?&style=for-the-badge&logo=Codechef&logoColor=white"  height="30px"/>
     </a>
 </p>
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fnghiantm&label=VISITORS&labelColor=%232ccce4&countColor=%23263759)
