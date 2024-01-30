@@ -1,35 +1,21 @@
 ### Hello there 👋
 
-```cpp
-#include <iostream>
-#include <vector>
-#include <string>
+```python
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
-class SoftwareEngineer {
-public:
-    SoftwareEngineer() {
+class SoftwareEngineer:
+
+    def __init__(self):
         name = "Nghia (Matt) Nguyen";
         description = "Software Engineer/Student by day, sleeping by night";
         school = "Drexel University";
-        most_used = {".js", ".cs", ".py", ".cpp"}
-    }
+        most_used = [".js", ".cs", ".py", ".cpp"]
 
-    void say_hi() {
-        std::cout << "Welcome, hope you find something interesting in here." << std::endl;
-    }
+    def say_hi(self):
+        print("Welcome, hope you find something interesting in here.")
 
-private:
-    std::string name;
-    std::string role;
-    std::string school;
-    std::vector<std::string> language_spoken;
-    std::vector<std::string> most_used_languages
-};
 
-int main() {
-    SoftwareEngineer me;
-    me.say_hi();
-
-    return 0;
-}
+me = SoftwareEngineer()
+me.say_hi()
 ```
