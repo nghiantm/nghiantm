@@ -5,7 +5,6 @@
 # -*- coding: utf-8 -*-
 
 class SoftwareEngineer:
-
     def __init__(self):
         name = "Nghia (Matt) Nguyen";
         description = "Software Engineer/Student by day, sleeping by night";
@@ -14,7 +13,6 @@ class SoftwareEngineer:
 
     def say_hi(self):
         print("Welcome, hope you find something interesting in here.")
-
 
 me = SoftwareEngineer()
 me.say_hi()
