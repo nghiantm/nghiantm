@@ -9,7 +9,7 @@ class SoftwareEngineer:
         name = "Nghia (Matt) Nguyen";
         description = "Software Engineer/Student by day, sleeping by night";
         school = "Drexel University";
-        most_used = [".js", ".cs", ".py", ".cpp"]
+        most_used = [".js", ".java", ".py", ".cpp"]
 
     def say_hi(self):
         print("Welcome, hope you find something interesting in here.")
